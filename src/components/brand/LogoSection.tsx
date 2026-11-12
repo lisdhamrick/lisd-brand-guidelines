@@ -63,6 +63,24 @@ const ROSES: { file: string; name: string; use: string; tile: string }[] = [
   { file: "mercury-attachments/lisd-rose-black1.svg", name: "Black", use: "For single-color black print, faxes, and gold fields.", tile: "bg-secondary" },
 ]
 
+function DownloadButtons({ file, label }: { file: string; label: string }) {
+  const pngFile = file.replace(/\.svg$/, ".png")
+  const buttonClass = "inline-flex h-9 items-center justify-center gap-ds-xs rounded-md border border-border px-ds-sm font-label text-[0.75rem] font-semibold uppercase tracking-[0.08em] text-primary transition-colors hover:bg-primary hover:text-primary-foreground"
+
+  return (
+    <div className="flex shrink-0 items-center gap-ds-xs">
+      <a href={assetPath(pngFile)} download aria-label={`Download ${label} (PNG)`} className={buttonClass}>
+        <Download className="h-4 w-4" />
+        PNG
+      </a>
+      <a href={assetPath(file)} download aria-label={`Download ${label} (SVG)`} className={buttonClass}>
+        <Download className="h-4 w-4" />
+        SVG
+      </a>
+    </div>
+  )
+}
+
 export function LogoSection() {
   const [bg, setBg] = useState<Bg>("white")
   const [rose, setRose] = useState<Rose>("two")
@@ -164,15 +182,7 @@ export function LogoSection() {
                   <p className="font-heading text-[1rem] font-bold text-foreground" data-oid="d49a42e036" data-oid-shared="true" data-oid-instance-targetable="true">{item.name}</p>
                   <p className="type-caption text-muted-foreground" data-oid="5af4d7d77a" data-oid-shared="true" data-oid-instance-targetable="true">{item.rose}</p>
                 </div>
-                <a
-                  href={assetPath(LOGO_FILES[item.variant])}
-                  download
-                  aria-label={`Download ${item.name}, ${item.rose} (SVG)`}
-                  className="inline-flex h-9 items-center gap-ds-xs rounded-md border border-border px-ds-sm font-label text-[0.75rem] font-semibold uppercase tracking-[0.08em] text-primary transition-colors hover:bg-primary hover:text-primary-foreground" data-oid="488c937b33" data-oid-shared="true" data-oid-instance-targetable="true"
-                >
-                  <Download className="h-4 w-4" data-oid="e3a3bd869c" data-oid-shared="true" data-oid-instance-targetable="true" />
-                  SVG
-                </a>
+                <DownloadButtons file={LOGO_FILES[item.variant]} label={`${item.name}, ${item.rose}`} />
               </div>
             </li>
           ))}
@@ -195,15 +205,7 @@ export function LogoSection() {
                   <p className="font-heading text-[1rem] font-bold text-foreground" data-oid="a6bceba7fd" data-oid-shared="true" data-oid-instance-targetable="true">{item.name}</p>
                   <p className="type-caption text-muted-foreground" data-oid="e93519f577" data-oid-shared="true" data-oid-instance-targetable="true">{item.rose}</p>
                 </div>
-                <a
-                  href={assetPath(item.file)}
-                  download
-                  aria-label={`Download stacked ${item.name}, ${item.rose} (SVG)`}
-                  className="inline-flex h-9 items-center gap-ds-xs rounded-md border border-border px-ds-sm font-label text-[0.75rem] font-semibold uppercase tracking-[0.08em] text-primary transition-colors hover:bg-primary hover:text-primary-foreground" data-oid="6d07f0c61f" data-oid-shared="true" data-oid-instance-targetable="true"
-                >
-                  <Download className="h-4 w-4" data-oid="a53fafae01" data-oid-shared="true" data-oid-instance-targetable="true" />
-                  SVG
-                </a>
+                <DownloadButtons file={item.file} label={`stacked ${item.name}, ${item.rose}`} />
               </div>
             </li>
           ))}
@@ -236,15 +238,7 @@ export function LogoSection() {
                   <p className="font-heading text-[1rem] font-bold text-foreground" data-oid="e398880564" data-oid-shared="true" data-oid-instance-targetable="true">{item.name}</p>
                   <p className="type-caption text-muted-foreground" data-oid="ea69a50a1a" data-oid-shared="true" data-oid-instance-targetable="true">{item.rose}</p>
                 </div>
-                <a
-                  href={assetPath(item.file)}
-                  download
-                  aria-label={`Download LISD abbreviated ${item.name}, ${item.rose} (SVG)`}
-                  className="inline-flex h-9 items-center gap-ds-xs rounded-md border border-border px-ds-sm font-label text-[0.75rem] font-semibold uppercase tracking-[0.08em] text-primary transition-colors hover:bg-primary hover:text-primary-foreground" data-oid="82ffbb1b68" data-oid-shared="true" data-oid-instance-targetable="true"
-                >
-                  <Download className="h-4 w-4" data-oid="4d5dca542a" data-oid-shared="true" data-oid-instance-targetable="true" />
-                  SVG
-                </a>
+                <DownloadButtons file={item.file} label={`LISD abbreviated ${item.name}, ${item.rose}`} />
               </div>
             </li>
           ))}
@@ -277,15 +271,7 @@ export function LogoSection() {
                   <p className="font-heading text-[1rem] font-bold text-foreground" data-oid="26f49c1551" data-oid-shared="true" data-oid-instance-targetable="true">{item.name}</p>
                   <p className="type-caption text-muted-foreground" data-oid="ce686a03ae" data-oid-shared="true" data-oid-instance-targetable="true">{item.rose}</p>
                 </div>
-                <a
-                  href={assetPath(item.file)}
-                  download
-                  aria-label={`Download tagline lockup, ${item.name}, ${item.rose} (SVG)`}
-                  className="inline-flex h-9 items-center gap-ds-xs rounded-md border border-border px-ds-sm font-label text-[0.75rem] font-semibold uppercase tracking-[0.08em] text-primary transition-colors hover:bg-primary hover:text-primary-foreground" data-oid="7134b6c2b6" data-oid-shared="true" data-oid-instance-targetable="true"
-                >
-                  <Download className="h-4 w-4" data-oid="9a81f38d33" data-oid-shared="true" data-oid-instance-targetable="true" />
-                  SVG
-                </a>
+                <DownloadButtons file={item.file} label={`tagline lockup, ${item.name}, ${item.rose}`} />
               </div>
             </li>
           ))}
@@ -309,15 +295,7 @@ export function LogoSection() {
               <div className="flex flex-1 flex-col gap-ds-sm border-t border-border p-ds-md" data-oid="3d1ef414ea" data-oid-shared="true" data-oid-instance-targetable="true">
                 <p className="font-heading text-[1rem] font-bold text-foreground" data-oid="c3868eeb26" data-oid-shared="true" data-oid-instance-targetable="true">{item.name}</p>
                 <p className="type-caption flex-1 text-muted-foreground" data-oid="e8945bbddf" data-oid-shared="true" data-oid-instance-targetable="true">{item.use}</p>
-                <a
-                  href={assetPath(item.file)}
-                  download
-                  aria-label={`Download compass rose, ${item.name} (SVG)`}
-                  className="inline-flex h-9 items-center justify-center gap-ds-xs self-start rounded-md border border-border px-ds-sm font-label text-[0.75rem] font-semibold uppercase tracking-[0.08em] text-primary transition-colors hover:bg-primary hover:text-primary-foreground" data-oid="5dbc35b175" data-oid-shared="true" data-oid-instance-targetable="true"
-                >
-                  <Download className="h-4 w-4" data-oid="5d7fdab196" data-oid-shared="true" data-oid-instance-targetable="true" />
-                  SVG
-                </a>
+                <DownloadButtons file={item.file} label={`compass rose, ${item.name}`} />
               </div>
             </li>
           ))}
