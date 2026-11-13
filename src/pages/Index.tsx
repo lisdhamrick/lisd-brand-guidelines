@@ -7,7 +7,6 @@ import { LogoSection } from "../components/brand/LogoSection"
 import { ColorSection } from "../components/brand/ColorSection"
 import { TypographySection } from "../components/brand/TypographySection"
 import { PhotographySection } from "../components/brand/PhotographySection"
-import { VoiceSection } from "../components/brand/VoiceSection"
 import { ChecklistSection } from "../components/brand/ChecklistSection"
 
 export default function Index() {
@@ -22,7 +21,6 @@ export default function Index() {
         <ColorSection />
         <TypographySection />
         <PhotographySection />
-        <VoiceSection />
         <ChecklistSection />
       </div>
       <Toaster position="bottom-right" richColors />

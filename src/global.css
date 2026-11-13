@@ -42,7 +42,7 @@
   --ds-space-xs: 0.25rem;
 
   --ds-font-futura: "Futura PT", sans-serif;
-  --ds-font-source-serif-4: "Source Serif 4", serif;
+  --ds-font-source-serif-4: "Noto Serif", serif;
 }
 @theme inline {
   --color-background: var(--background);
@@ -412,6 +412,12 @@
   .ds-listbox-option[aria-selected='true'] {
     background: var(--accent);
     color: var(--accent-foreground);
+  }
+}
+
+@media (max-width: 1023px) {
+  section[id] {
+    scroll-margin-top: 4.5rem;
   }
 }
 

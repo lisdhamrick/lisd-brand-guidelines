@@ -10,7 +10,7 @@ const STYLE_META: Record<Style, { family: string; print: string; weight: string 
 }
 
 export function TypographySection() {
-  const [text, setText] = useState("Go Big Blue & Gold")
+  const [text, setText] = useState("For Every Student. Always.")
   const [size, setSize] = useState(72)
   const [style, setStyle] = useState<Style>("display")
 
@@ -19,9 +19,9 @@ export function TypographySection() {
       <div className="pointer-events-none absolute -right-24 top-ds-xl select-none font-display text-[28rem] font-bold leading-none text-background/5" data-oid="6aa5c10a3e">Aa</div>
       <div className="relative" data-oid="d261227a0a">
         <p className="type-label uppercase text-secondary" data-oid="a9652e37e2">04 — Typography</p>
-        <h2 className="type-display mt-ds-md text-[4rem] uppercase" data-oid="46d91b560d">Bold Over Clear</h2>
+        <h2 className="type-display mt-ds-md text-[4rem] uppercase" data-oid="46d91b560d">Bold Headings &amp; Clear Paragraphs</h2>
         <p className="type-body mt-ds-md max-w-2xl text-background/75" data-oid="c63e786ae9">
-          Heavy geometric headlines give us an athletic, confident voice. A warm serif body keeps longer reading friendly for families. In print, use Futura PT and Noto Serif; on the web and in digital tools, use the approved web equivalents below.
+          Heavy geometric headlines give us a clear and confident voice. A warm serif font keeps longer reading friendly for families. In print, use Futura PT and Noto Serif; when those fonts are unavailable in Google Workspace or other digital tools, use the approved equivalents below.
         </p>
 
         <div className="mt-ds-2xl grid grid-cols-1 gap-ds-lg xl:grid-cols-2" data-oid="91c623d38a">
@@ -29,15 +29,26 @@ export function TypographySection() {
             <p className="type-label uppercase text-secondary" data-oid="9d701e917c">Headlines</p>
             <p className="mt-ds-md font-display text-[9rem] font-bold leading-none tracking-[-0.04em]" data-oid="c37192f2bd">Aa</p>
             <h3 className="type-heading mt-ds-md" data-oid="d43e1cd7ed">Futura PT Bold</h3>
-            <p className="type-caption mt-ds-xs text-background/60" data-oid="f426fa7d38">Web: Poppins ExtraBold / Bold</p>
+            <p className="type-caption mt-ds-xs text-background/60" data-oid="f426fa7d38">Google Workspace: Geologica ExtraBold</p>
             <p className="mt-ds-lg break-all font-display text-[1.5rem] font-bold tracking-[0.04em]" data-oid="e80ca4f947">ABCDEFGHIJKLMNOPQRSTUVWXYZ 0123456789</p>
           </div>
           <div className="rounded-lg border border-background/15 p-ds-xl" data-oid="d80f4d5b83">
             <p className="type-label uppercase text-secondary" data-oid="5e81f5b22f">Body Copy</p>
             <p className="mt-ds-md font-body text-[9rem] leading-none" data-oid="e86e321df7">Aa</p>
             <h3 className="type-heading mt-ds-md" data-oid="b03b26699c">Noto Serif</h3>
-            <p className="type-caption mt-ds-xs text-background/60" data-oid="4d2daf102b">Web: Noto Serif Regular / Bold</p>
+            <p className="type-caption mt-ds-xs text-background/60" data-oid="4d2daf102b">Google Workspace: Noto Serif Telugu</p>
             <p className="mt-ds-lg break-all font-body text-[1.5rem]" data-oid="c8588b8bb7">abcdefghijklmnopqrstuvwxyz 0123456789</p>
+          </div>
+        </div>
+
+        <div className="mt-ds-lg grid grid-cols-1 gap-ds-md md:grid-cols-2">
+          <div className="rounded-lg border border-background/15 p-ds-lg">
+            <p className="type-label uppercase text-secondary">Canva</p>
+            <p className="type-body mt-ds-sm text-background/75">Use Futura ExtraBold for the closest match to Futura PT Bold. Noto Serif is available through the district Canva Brand Kit.</p>
+          </div>
+          <div className="rounded-lg border border-background/15 p-ds-lg">
+            <p className="type-label uppercase text-secondary">Capitalization</p>
+            <p className="type-body mt-ds-sm text-background/75">All caps may be used for short editorial headlines. Keep body copy and longer subheads in sentence case.</p>
           </div>
         </div>
 
@@ -75,17 +86,17 @@ export function TypographySection() {
           <div className="mt-ds-lg divide-y divide-background/15 border-y border-background/15" data-oid="1cc11745c9">
             <div className="grid grid-cols-12 items-baseline gap-ds-md py-ds-lg" data-oid="1df865a8d5">
               <p className="type-label col-span-2 uppercase text-secondary" data-oid="8575779e97">Display</p>
-              <p className="type-display col-span-7 uppercase" data-oid="15a097c888">Lead</p>
+              <p className="type-display col-span-7 uppercase" data-oid="15a097c888">For Every Student. Always.</p>
               <p className="type-caption col-span-3 text-right text-background/60" data-oid="031cd51183">80px · 700 · 0.95</p>
             </div>
             <div className="grid grid-cols-12 items-baseline gap-ds-md py-ds-lg" data-oid="3c95d87001">
               <p className="type-label col-span-2 uppercase text-secondary" data-oid="aa230b0a2c">Heading</p>
-              <p className="type-heading col-span-7 uppercase" data-oid="4a36be36fb">Welcome back, families</p>
+              <p className="type-heading col-span-7" data-oid="4a36be36fb">Critical and Creative Thinkers</p>
               <p className="type-caption col-span-3 text-right text-background/60" data-oid="39726472d3">32px · 700 · 1.15</p>
             </div>
             <div className="grid grid-cols-12 items-baseline gap-ds-md py-ds-lg" data-oid="8b48c1a5de">
               <p className="type-label col-span-2 uppercase text-secondary" data-oid="aa65271ae0">Body</p>
-              <p className="type-body col-span-7" data-oid="df73af8252">Registration for the new school year opens in March. Visit your campus office for help.</p>
+              <p className="type-body col-span-7" data-oid="df73af8252">Skilled Communicators and Collaborators</p>
               <p className="type-caption col-span-3 text-right text-background/60" data-oid="418a31c7c9">17px · 400 · 1.65</p>
             </div>
             <div className="grid grid-cols-12 items-baseline gap-ds-md py-ds-lg" data-oid="c9097ab7a3">

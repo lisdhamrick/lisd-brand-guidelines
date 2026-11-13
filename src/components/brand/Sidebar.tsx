@@ -48,7 +48,7 @@ export function Sidebar() {
       </nav>
       <div className="border-t border-border px-ds-lg py-ds-lg" data-oid="e11521e545">
         <p className="type-caption text-muted-foreground" data-oid="3bb783e0de">Questions about brand use?</p>
-        <a href="#checklist" className="mt-ds-xs inline-flex items-center gap-ds-xs font-heading text-[0.9375rem] font-bold text-primary hover:underline" data-oid="7ec678700f">
+        <a href="https://www.leanderisd.org/schoolcommunityrelations/" target="_blank" rel="noreferrer" className="mt-ds-xs inline-flex items-center gap-ds-xs font-heading text-[0.9375rem] font-bold text-primary hover:underline" data-oid="7ec678700f">
           Contact Communications
           <ArrowUpRight className="h-4 w-4" data-oid="794209becd" />
         </a>

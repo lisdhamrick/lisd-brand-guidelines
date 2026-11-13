@@ -1,4 +1,4 @@
-import { ArrowDown } from "lucide-react";
+import { ArrowDown, ArrowRight } from "lucide-react";
 import { assetPath } from "../../lib/assetPath";
 
 export function HeroSection() {
@@ -26,7 +26,7 @@ export function HeroSection() {
             </h1>
             <p className="type-display text-[clamp(3.6rem,6.25vw,7rem)] leading-[0.8] tracking-[-0.04em] uppercase text-[#FFC000]" data-oid="f0ff8fd14b">Always.</p>
             <p className="type-body mt-ds-xl max-w-2xl text-[1.375rem] text-primary-foreground/85" data-oid="38ed55c68d">
-              This is the playbook for how Leander ISD looks, sounds, and shows up — on a stadium banner, a kindergarten welcome letter, or a board presentation. Use it to keep every campus unmistakably ours.
+              Every Leander ISD communication is part of the experience we create for students, families, staff and community. These standards ensure we show up clearly and consistently, building trust and familiarity with every social media post, branded T-shirt and board presentation.
             </p>
           </div>
           <div className="flex flex-wrap items-end justify-between gap-ds-lg" data-oid="4fa4213179">
@@ -34,19 +34,12 @@ export function HeroSection() {
               Start the guide
               <ArrowDown className="h-4 w-4" data-oid="9f2dbcdb51" />
             </a>
-            <div className="flex gap-ds-xl" data-oid="7105c015c6">
-              <div data-oid="c9dd38a92e">
-                <p className="font-display text-[2.5rem] font-extrabold leading-none" data-oid="f5f3c6436e">Full</p>
-                <p className="type-caption uppercase text-primary-foreground/70" data-oid="934a6d225c">District name</p>
-              </div>
-              <div data-oid="3853611b15">
-                <p className="font-display text-[2.5rem] font-extrabold leading-none" data-oid="3bd7b95abf">Flex</p>
-                <p className="type-caption uppercase text-primary-foreground/70" data-oid="13a64c0027">Supporting marks</p>
-              </div>
-              <div data-oid="c8bfc63032">
-                <p className="font-display text-[2.5rem] font-extrabold leading-none text-secondary" data-oid="3d73d36f5e">5</p>
-                <p className="type-caption uppercase text-primary-foreground/70" data-oid="6f9ab3b57b">Brand colors</p>
-              </div>
+            <div className="flex flex-wrap gap-x-ds-xl gap-y-ds-sm" aria-label="Quick links" data-oid="7105c015c6">
+              {[["Find a logo", "#logo"], ["Copy colors", "#color"], ["Check your work", "#checklist"]].map(([label, href]) => (
+                <a key={href} href={href} className="inline-flex items-center gap-ds-xs font-heading text-[0.9375rem] font-bold uppercase tracking-[0.04em] text-primary-foreground hover:text-secondary">
+                  {label}<ArrowRight className="h-4 w-4" />
+                </a>
+              ))}
             </div>
           </div>
         </div>
@@ -64,7 +57,7 @@ export function HeroSection() {
           <div className="pointer-events-none absolute inset-0 bg-gradient-to-r from-primary/60 via-transparent to-transparent" data-oid="f59e643db8" />
           <div className="absolute bottom-ds-2xl left-0 bg-secondary px-ds-lg py-ds-md text-secondary-foreground xl:-left-ds-2xl" data-oid="9dbfe3478d">
             <p className="type-label uppercase" data-oid="05dee4811f">Section 00</p>
-            <p className="font-display text-[1.5rem] font-extrabold uppercase leading-tight" data-oid="47c503ccad">How to use this guide</p>
+            <p className="font-display text-[1.5rem] font-extrabold uppercase leading-tight" data-oid="47c503ccad">Start here</p>
           </div>
         </div>
       </div>

@@ -9,7 +9,7 @@ export function PhotographySection() {
           <p className="type-label uppercase text-primary" data-oid="9d4ac12a47">05 — Photography</p>
           <h2 className="type-display mt-ds-md text-[4rem] uppercase text-foreground" data-oid="46c7c5b0d6">Real kids. Real moments.</h2>
           <p className="type-body mt-ds-lg text-muted-foreground" data-oid="493fabd25f">
-            Our photography captures the energy of learning in action. Get close, catch genuine expressions, and look for natural pops of blue and gold in the frame.
+            Our photography captures the energy of learning in action. Get close, catch genuine expressions, and show students learning, creating, collaborating and taking ownership of their experience.
           </p>
           <ul className="mt-ds-xl flex flex-col gap-ds-md" data-oid="d443ce1d7a">
             <li className="type-body flex items-start gap-ds-sm text-foreground" data-oid="6f21276a57">
@@ -18,15 +18,27 @@ export function PhotographySection() {
             </li>
             <li className="type-body flex items-start gap-ds-sm text-foreground" data-oid="6c7c961e61">
               <Check className="mt-1 h-5 w-5 shrink-0 text-success" data-oid="7b09fc18db" />
-              Diverse students reflecting every campus community
+              Bright, natural light and clean backgrounds
             </li>
             <li className="type-body flex items-start gap-ds-sm text-foreground" data-oid="3dbf5bbea1">
               <Check className="mt-1 h-5 w-5 shrink-0 text-success" data-oid="23237515ba" />
-              Bright, natural light and clean backgrounds
+              Represent the full breadth of our students, staff, programs and communities over time
             </li>
             <li className="type-body flex items-start gap-ds-sm text-foreground" data-oid="6d05436d9d">
               <X className="mt-1 h-5 w-5 shrink-0 text-destructive" data-oid="429f0b70e5" />
-              Heavy filters, clutter, or images that do not follow district privacy and media-consent requirements
+              Avoid placing text over faces or essential activity
+            </li>
+            <li className="type-body flex items-start gap-ds-sm text-foreground">
+              <X className="mt-1 h-5 w-5 shrink-0 text-destructive" />
+              Avoid heavy filters that make district photography feel artificial
+            </li>
+            <li className="type-body flex items-start gap-ds-sm text-foreground">
+              <X className="mt-1 h-5 w-5 shrink-0 text-destructive" />
+              Never use AI-generated views of district facilities, branding or school graphics
+            </li>
+            <li className="type-body flex items-start gap-ds-sm text-foreground">
+              <Check className="mt-1 h-5 w-5 shrink-0 text-success" />
+              Provide meaningful alt text and captions for on-image text
             </li>
           </ul>
         </div>

@@ -9,9 +9,9 @@ type Layout = "horizontal" | "stacked"
 
 const PREVIEW: Record<Bg, { two: LogoVariant; one: LogoVariant; note: string; label: string }> = {
   white: { two: "blue-gold2", one: "blue-gold1", label: "Primary · Blue + Gold", note: "The blue and gold lockup on white is our primary, preferred application." },
-  blue: { two: "white-gold2", one: "white-gold1", label: "Reversed · White + Gold", note: "On Leander Blue, use the reversed lockup: white type with the gold compass rose." },
+  blue: { two: "white-gold2", one: "white-gold1", label: "Reversed · White + Gold", note: "On LISD Blue, use the reversed lockup: white type with the gold Compass Rose." },
   black: { two: "white-gold2", one: "white-gold1", label: "Reversed · White + Gold", note: "On black or very dark photography, use the reversed white and gold lockup." },
-  gold: { two: "black-black1", one: "black-black1", label: "One-color · Black", note: "On Leander Gold, the gold compass rose would disappear. Use the one-color black lockup." },
+  gold: { two: "black-black1", one: "black-black1", label: "One-color · Black", note: "On LISD Unigold, the gold Compass Rose would disappear. Use the one-color black lockup." },
 }
 
 const LIBRARY: { variant: LogoVariant; name: string; rose: string; tile: string }[] = [
@@ -58,7 +58,7 @@ const TAGLINE: { file: string; name: string; rose: string; tile: string }[] = [
 const ROSES: { file: string; name: string; use: string; tile: string }[] = [
   { file: "mercury-attachments/lisd-rose-gold2.svg", name: "Gold · Two-color", use: "Primary mark for full-color print, web, and social.", tile: "bg-background" },
   { file: "mercury-attachments/lisd-rose-gold1-light.svg", name: "Gold · One-color", use: "For light backgrounds, spot-color, and embroidery.", tile: "bg-background" },
-  { file: "mercury-attachments/lisd-rose-gold1-dark.svg", name: "Gold · One-color", use: "For Leander Blue and other dark backgrounds.", tile: "bg-primary" },
+  { file: "mercury-attachments/lisd-rose-gold1-dark.svg", name: "Gold · One-color", use: "For LISD Blue and other dark backgrounds.", tile: "bg-primary" },
   { file: "mercury-attachments/lisd-rose-white1.svg", name: "White", use: "For photography and dark fields where gold won’t read.", tile: "bg-foreground" },
   { file: "mercury-attachments/lisd-rose-black1.svg", name: "Black", use: "For single-color black print, faxes, and gold fields.", tile: "bg-secondary" },
 ]
@@ -93,11 +93,11 @@ export function LogoSection() {
     <section id="logo" className="bg-muted/40 px-ds-xl py-ds-3xl xl:px-ds-3xl" data-oid="cf8cbf8254" data-oid-component-root="true" data-oid-callsite-deletable="true" data-oid-callsite-single="true">
       <div className="flex flex-wrap items-end justify-between gap-ds-lg" data-oid="077d296cdb">
         <div data-oid="0921281e8b">
-          <p className="type-label uppercase text-primary" data-oid="58d260e93a">02 — Logo</p>
-          <h2 className="type-display mt-ds-md text-[4rem] uppercase text-foreground" data-oid="0fa11d030d">The Lockup</h2>
+          <p className="type-label uppercase text-primary" data-oid="58d260e93a">02 — Logos</p>
+          <h2 className="type-display mt-ds-md text-[4rem] uppercase text-foreground" data-oid="0fa11d030d">District Logos</h2>
         </div>
         <p className="type-body max-w-xl text-muted-foreground" data-oid="3ce48cd788">
-          Our logo pairs the LEANDER ISD wordmark with the compass rose, a guide for every learner. Never redraw it; always use the approved files below.
+          Our primary logos pair the LEANDER ISD wordmark with the Compass Rose. Only use the approved files below. These marks are central to our brand; never redraw them or use AI to generate different versions of the Compass Rose or any brand letterforms.
         </p>
       </div>
 
@@ -132,11 +132,11 @@ export function LogoSection() {
             </button>
             <button type="button" aria-pressed={bg === "blue"} onClick={() => setBg("blue")} className="ds-button justify-start border-border bg-background text-foreground aria-pressed:border-primary aria-pressed:ring-2 aria-pressed:ring-primary" data-oid="af8a061493">
               <span className="h-4 w-4 rounded-full bg-primary" data-oid="6c3939b364" />
-              Leander Blue
+              LISD Blue
             </button>
             <button type="button" aria-pressed={bg === "gold"} onClick={() => setBg("gold")} className="ds-button justify-start border-border bg-background text-foreground aria-pressed:border-primary aria-pressed:ring-2 aria-pressed:ring-primary" data-oid="7c7a271122">
               <span className="h-4 w-4 rounded-full bg-secondary" data-oid="4284940e21" />
-              Gold
+              LISD Unigold
             </button>
             <button type="button" aria-pressed={bg === "black"} onClick={() => setBg("black")} className="ds-button justify-start border-border bg-background text-foreground aria-pressed:border-primary aria-pressed:ring-2 aria-pressed:ring-primary" data-oid="37535ded20">
               <span className="h-4 w-4 rounded-full bg-foreground" data-oid="f4945b5bbe" />
@@ -144,19 +144,23 @@ export function LogoSection() {
             </button>
           </div>
 
+          <div className="border-t border-border pt-ds-lg">
+            <p className="type-label mb-ds-sm uppercase text-muted-foreground">Logo orientation</p>
           <div className="ds-tabs" data-oid="1b3da310b1">
             <div className="ds-tab-list" role="tablist" aria-label="Lockup layout" data-oid="9b80e81a15">
               <button type="button" role="tab" className="ds-tab uppercase" aria-selected={layout === "horizontal"} onClick={() => setLayout("horizontal")} data-oid="a890d62286">Horizontal</button>
               <button type="button" role="tab" className="ds-tab uppercase" aria-selected={layout === "stacked"} onClick={() => setLayout("stacked")} data-oid="fd086cb8ca">Stacked</button>
             </div>
-          </div>
+          </div></div>
 
+          <div className="border-t border-border pt-ds-lg">
+            <p className="type-label mb-ds-sm uppercase text-muted-foreground">Compass Rose artwork</p>
           <div className="ds-tabs" data-oid="53e1395670">
             <div className="ds-tab-list" role="tablist" aria-label="Compass rose version" data-oid="013251b873">
               <button type="button" role="tab" className="ds-tab uppercase disabled:opacity-40" aria-selected={rose === "two" && !oneColorOnly} disabled={oneColorOnly} onClick={() => setRose("two")} data-oid="7465e18488">Two-Color Rose</button>
               <button type="button" role="tab" className="ds-tab uppercase" aria-selected={rose === "one" || oneColorOnly} onClick={() => setRose("one")} data-oid="1e30bff6e9">One-Color Rose</button>
             </div>
-          </div>
+          </div></div>
 
           <p className="type-body text-muted-foreground" data-oid="4096bb3fc6">{info.note}</p>
           <div className="mt-auto border-t border-border pt-ds-lg" data-oid="b733fcbadc">
@@ -168,8 +172,8 @@ export function LogoSection() {
 
       <div className="mt-ds-2xl" data-oid="fea4a0c648">
         <div className="flex flex-wrap items-end justify-between gap-ds-md" data-oid="9864b2dfb7">
-          <h3 className="type-heading text-foreground" data-oid="cba5cb1e18">Lockup Library</h3>
-          <p className="type-caption text-muted-foreground" data-oid="a740a14acf">Two-color rose for full-color print and screens; one-color rose for embroidery, screen printing, and small sizes.</p>
+          <h3 className="type-heading text-foreground" data-oid="cba5cb1e18">Horizontal District Logo</h3>
+          <p className="type-caption max-w-xl text-muted-foreground" data-oid="a740a14acf">The default and primary district logo. Choose the two-color Compass Rose for full-color print and screens; use one-color artwork for embroidery, screen printing and smaller applications.</p>
         </div>
         <ul className="mt-ds-lg grid grid-cols-1 gap-ds-lg md:grid-cols-2 xl:grid-cols-4" data-oid="289648a2f8">
           {LIBRARY.map((item, index) => (
@@ -192,7 +196,7 @@ export function LogoSection() {
       <div className="mt-ds-2xl" data-oid="8bf8162681">
         <div className="flex flex-wrap items-end justify-between gap-ds-md" data-oid="ee821448c0">
           <h3 className="type-heading text-foreground" data-oid="c02b21722b">Stacked Lockups</h3>
-          <p className="type-caption max-w-xl text-muted-foreground" data-oid="24410fc942">Use the stacked lockup for square and vertical spaces like social avatars, signage, apparel, and banners where the horizontal lockup would be too small.</p>
+          <p className="type-caption max-w-xl text-muted-foreground" data-oid="24410fc942">Use the stacked orientation for square and vertical spaces such as social avatars, signage, apparel and banners, where the horizontal logo would be forced to be too small.</p>
         </div>
         <ul className="mt-ds-lg grid grid-cols-1 gap-ds-lg md:grid-cols-2 xl:grid-cols-4" data-oid="7faf031f23">
           {STACKED.map((item, index) => (
@@ -282,7 +286,7 @@ export function LogoSection() {
         <div className="flex flex-wrap items-end justify-between gap-ds-md" data-oid="83b368fcba">
           <div data-oid="a46ddedb69">
             <h3 className="type-heading text-foreground" data-oid="ac8644d752">The Compass Rose</h3>
-            <p className="type-body mt-ds-xs max-w-2xl text-muted-foreground" data-oid="4d32c875c5">Our symbol points every student toward their future. Use it alone as an avatar, app icon, favicon, pattern, or campus accent, but never as a replacement for the full lockup on official communications.</p>
+            <p className="type-body mt-ds-xs max-w-4xl text-muted-foreground" data-oid="4d32c875c5">The Compass Rose is the prominent and most recognizable anchor of our district brand. It can stand alone on apparel or social media and may be used strategically where the district identity is already established. Its uppermost point always uses the same directional lighting: the left face is illuminated and the right face is shaded. Never invert, mirror or reconstruct the artwork.</p>
           </div>
           <p className="type-caption text-muted-foreground" data-oid="93bc3c6058">Minimum size: 0.375″ in print, 24px on screen.</p>
         </div>

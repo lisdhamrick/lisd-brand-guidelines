@@ -13,9 +13,9 @@ export function VoiceSection() {
       <div className="relative grid grid-cols-1 gap-ds-2xl xl:grid-cols-12" data-oid="4a442befd5">
         <div className="xl:col-span-5" data-oid="cc7435c76b">
           <p className="type-label uppercase text-primary" data-oid="9980fd9209">06 — Voice &amp; Tone</p>
-          <h2 className="type-display mt-ds-md text-[4rem] uppercase" data-oid="2f7d4bea14">Talk like a neighbor</h2>
+          <h2 className="type-display mt-ds-md text-[4rem] uppercase" data-oid="2f7d4bea14">Clear, Human &amp; Useful</h2>
           <p className="type-body mt-ds-lg max-w-lg" data-oid="bf7b306295">
-            We sound like the best teacher you ever had: warm, direct, and proud of every student. Write short sentences. Lead with what families need to know.
+            We communicate the way our best educators do: with clarity, care, confidence and respect. Lead with what people need to know, make the next step easy to find and explain how the information affects students.
           </p>
         </div>
 
