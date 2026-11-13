@@ -49,7 +49,7 @@ export function ColorSection() {
           <span className="type-label uppercase text-secondary" data-oid="9c14fa203c">Primary · 60%</span>
           <span className="flex items-end justify-between gap-ds-md" data-oid="6e08659298">
             <span className="flex flex-col" data-oid="684515ce80">
-              <span className="font-display text-[3.5rem] font-extrabold uppercase leading-none tracking-[-0.03em]" data-oid="9146fed45e">LISD Blue</span>
+              <span className="font-display text-[3.5rem] font-bold uppercase leading-none tracking-[-0.03em]" data-oid="9146fed45e">LISD Blue</span>
               <span className="mt-ds-sm font-label text-[1.125rem] font-semibold tabular-nums" data-oid="278b17d673">{value("blue")}</span>
             </span>
             <Copy className="h-6 w-6 opacity-60 group-hover:opacity-100" data-oid="b45a29a9aa" />
@@ -59,7 +59,7 @@ export function ColorSection() {
           <span className="type-label uppercase" data-oid="885994bf5f">Accent · 10%</span>
           <span className="flex items-end justify-between" data-oid="ee95611400">
             <span className="flex flex-col" data-oid="a11cc914bd">
-              <span className="font-display text-[2rem] font-extrabold uppercase leading-none" data-oid="552845b6d9">LISD Unigold</span>
+              <span className="font-display text-[2rem] font-bold uppercase leading-none" data-oid="552845b6d9">LISD Unigold</span>
               <span className="mt-ds-xs font-label text-[1rem] font-semibold tabular-nums" data-oid="d8415b5643">{value("gold")}</span>
             </span>
             <Copy className="h-5 w-5 opacity-60 group-hover:opacity-100" data-oid="d0bb7e856b" />
