@@ -29,7 +29,7 @@ export function Sidebar() {
         </a>
         <p className="type-label mt-ds-sm uppercase text-muted-foreground" data-oid="64b365b507">Brand Guidelines · 2026</p>
       </div>
-      <nav className="flex-1 overflow-y-auto px-ds-sm py-ds-md" aria-label="Guideline sections" data-oid="35d884d6fb">
+      <nav className="flex-1 overflow-y-auto py-ds-md" aria-label="Guideline sections" data-oid="35d884d6fb">
         <ul className="flex flex-col gap-ds-xs" data-oid="ee3d03625f">
           {SECTIONS.map((s, index) => (
             <li key={s.id} data-oid="caded3c544" data-oid-shared="true" data-oid-instance-targetable="true">
@@ -37,7 +37,7 @@ export function Sidebar() {
                 href={`#${s.id}`}
                 data-index={index}
                 aria-current={active === s.id ? "true" : undefined}
-                className="group flex items-center gap-ds-md rounded-md border-l-4 border-transparent px-ds-md py-ds-sm font-heading text-[0.9375rem] font-semibold text-muted-foreground transition-colors hover:bg-accent hover:text-primary aria-[current=true]:border-secondary aria-[current=true]:bg-primary aria-[current=true]:text-primary-foreground" data-oid="13e437bed6" data-oid-shared="true" data-oid-instance-targetable="true" data-oid-text-editable="false" data-oid-text-source="element:span|expression:b66d107c5223"
+                className="group flex items-center gap-ds-md border-r-5 border-transparent px-ds-md py-ds-sm font-heading text-[0.9375rem] font-semibold text-muted-foreground transition-colors hover:bg-accent hover:text-primary aria-[current=true]:border-secondary aria-[current=true]:bg-primary aria-[current=true]:text-primary-foreground" data-oid="13e437bed6" data-oid-shared="true" data-oid-instance-targetable="true" data-oid-text-editable="false" data-oid-text-source="element:span|expression:b66d107c5223"
               >
                 <span className="type-caption tabular-nums opacity-70" data-oid="17942fc7f0" data-oid-shared="true" data-oid-instance-targetable="true">{s.number}</span>
                 {s.label}
