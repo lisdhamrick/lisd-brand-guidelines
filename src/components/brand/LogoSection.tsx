@@ -94,7 +94,7 @@ export function LogoSection() {
       <div className="flex flex-wrap items-end justify-between gap-ds-lg" data-oid="077d296cdb">
         <div data-oid="0921281e8b">
           <p className="type-label uppercase text-primary" data-oid="58d260e93a">02 — Logo</p>
-          <h2 className="type-display mt-ds-md text-[4rem] uppercase text-foreground" data-oid="0fa11d030d">The lockup</h2>
+          <h2 className="type-display mt-ds-md text-[4rem] uppercase text-foreground" data-oid="0fa11d030d">The Lockup</h2>
         </div>
         <p className="type-body max-w-xl text-muted-foreground" data-oid="3ce48cd788">
           Our logo pairs the LEANDER ISD wordmark with the compass rose, a guide for every learner. Never redraw it; always use the approved files below.
@@ -124,7 +124,7 @@ export function LogoSection() {
           </p>
         </div>
         <div className="flex flex-col gap-ds-lg rounded-lg bg-background p-ds-xl xl:col-span-4" data-oid="395bfa290f">
-          <h3 className="type-heading text-foreground" data-oid="40a9d24d3b">Try a background</h3>
+          <h3 className="type-heading text-foreground" data-oid="40a9d24d3b">Try a Background</h3>
           <div className="grid grid-cols-2 gap-ds-sm" role="group" aria-label="Logo background" data-oid="41c7b51879">
             <button type="button" aria-pressed={bg === "white"} onClick={() => setBg("white")} className="ds-button justify-start border-border bg-background text-foreground aria-pressed:border-primary aria-pressed:ring-2 aria-pressed:ring-primary" data-oid="62fd125af8">
               <span className="h-4 w-4 rounded-full border border-input bg-background" data-oid="c3fde88d1b" />
@@ -153,14 +153,14 @@ export function LogoSection() {
 
           <div className="ds-tabs" data-oid="53e1395670">
             <div className="ds-tab-list" role="tablist" aria-label="Compass rose version" data-oid="013251b873">
-              <button type="button" role="tab" className="ds-tab uppercase disabled:opacity-40" aria-selected={rose === "two" && !oneColorOnly} disabled={oneColorOnly} onClick={() => setRose("two")} data-oid="7465e18488">Two-color rose</button>
-              <button type="button" role="tab" className="ds-tab uppercase" aria-selected={rose === "one" || oneColorOnly} onClick={() => setRose("one")} data-oid="1e30bff6e9">One-color rose</button>
+              <button type="button" role="tab" className="ds-tab uppercase disabled:opacity-40" aria-selected={rose === "two" && !oneColorOnly} disabled={oneColorOnly} onClick={() => setRose("two")} data-oid="7465e18488">Two-Color Rose</button>
+              <button type="button" role="tab" className="ds-tab uppercase" aria-selected={rose === "one" || oneColorOnly} onClick={() => setRose("one")} data-oid="1e30bff6e9">One-Color Rose</button>
             </div>
           </div>
 
           <p className="type-body text-muted-foreground" data-oid="4096bb3fc6">{info.note}</p>
           <div className="mt-auto border-t border-border pt-ds-lg" data-oid="b733fcbadc">
-            <h4 className="type-label uppercase text-foreground" data-oid="19a4e3731c">Clear space</h4>
+            <h4 className="type-label uppercase text-foreground" data-oid="19a4e3731c">Clear Space</h4>
             <p className="type-body mt-ds-xs text-muted-foreground" data-oid="c20516063b">Keep a margin equal to the height of the letters in LEANDER on all sides. Minimum width: 1.5″ in print, 180px on screen.</p>
           </div>
         </div>
@@ -168,7 +168,7 @@ export function LogoSection() {
 
       <div className="mt-ds-2xl" data-oid="fea4a0c648">
         <div className="flex flex-wrap items-end justify-between gap-ds-md" data-oid="9864b2dfb7">
-          <h3 className="type-heading text-foreground" data-oid="cba5cb1e18">Lockup library</h3>
+          <h3 className="type-heading text-foreground" data-oid="cba5cb1e18">Lockup Library</h3>
           <p className="type-caption text-muted-foreground" data-oid="a740a14acf">Two-color rose for full-color print and screens; one-color rose for embroidery, screen printing, and small sizes.</p>
         </div>
         <ul className="mt-ds-lg grid grid-cols-1 gap-ds-lg md:grid-cols-2 xl:grid-cols-4" data-oid="289648a2f8">
@@ -191,7 +191,7 @@ export function LogoSection() {
 
       <div className="mt-ds-2xl" data-oid="8bf8162681">
         <div className="flex flex-wrap items-end justify-between gap-ds-md" data-oid="ee821448c0">
-          <h3 className="type-heading text-foreground" data-oid="c02b21722b">Stacked lockups</h3>
+          <h3 className="type-heading text-foreground" data-oid="c02b21722b">Stacked Lockups</h3>
           <p className="type-caption max-w-xl text-muted-foreground" data-oid="24410fc942">Use the stacked lockup for square and vertical spaces like social avatars, signage, apparel, and banners where the horizontal lockup would be too small.</p>
         </div>
         <ul className="mt-ds-lg grid grid-cols-1 gap-ds-lg md:grid-cols-2 xl:grid-cols-4" data-oid="7faf031f23">
@@ -215,15 +215,15 @@ export function LogoSection() {
       <div className="mt-ds-2xl" data-oid="b36c02a479">
         <div className="flex flex-wrap items-end justify-between gap-ds-md" data-oid="13ab3b7abc">
           <div data-oid="53da656b34">
-            <p className="type-label uppercase text-muted-foreground" data-oid="82726cff0e">Special use only</p>
-            <h3 className="type-heading mt-ds-xs text-foreground" data-oid="e94b0f4085">LISD abbreviated lockup</h3>
+            <p className="type-label uppercase text-muted-foreground" data-oid="82726cff0e">Special Use Only</p>
+            <h3 className="type-heading mt-ds-xs text-foreground" data-oid="e94b0f4085">LISD Abbreviated Lockup</h3>
           </div>
           <p className="type-caption max-w-xl text-muted-foreground" data-oid="f01724d0c5">A shorthand version of our identity. It is not a substitute for the full LEANDER ISD lockup.</p>
         </div>
         <div className="mt-ds-lg flex items-start gap-ds-md rounded-lg border border-border border-l-4 border-l-secondary bg-background p-ds-lg" data-oid="4659274b43">
           <AlertTriangle className="mt-0.5 h-5 w-5 shrink-0 text-foreground" data-oid="9fcb4d5019" />
           <div data-oid="c9a1adb653">
-            <h4 className="type-label uppercase text-foreground" data-oid="d55546cef5">Use sparingly</h4>
+            <h4 className="type-label uppercase text-foreground" data-oid="d55546cef5">Use Sparingly</h4>
             <p className="type-body mt-ds-xs max-w-4xl text-muted-foreground" data-oid="f1dfbf7c3b">Reserve the LISD lockup for internal materials, or for pieces where the full Leander ISD identity is already established nearby, such as a second page, a slide footer, or the back of a shirt that has the full logo on the front. Public-facing, first-impression, and official communications always use the full lockup.</p>
           </div>
         </div>
@@ -248,15 +248,15 @@ export function LogoSection() {
       <div className="mt-ds-2xl" data-oid="310c8b4c1e">
         <div className="flex flex-wrap items-end justify-between gap-ds-md" data-oid="0014dda7f8">
           <div data-oid="552ecbd147">
-            <p className="type-label uppercase text-muted-foreground" data-oid="fa53442053">Legacy · Limited use</p>
-            <h3 className="type-heading mt-ds-xs text-foreground" data-oid="6f3e5e643d">Horizontal lockup with tagline</h3>
+            <p className="type-label uppercase text-muted-foreground" data-oid="fa53442053">Legacy · Limited Use</p>
+            <h3 className="type-heading mt-ds-xs text-foreground" data-oid="6f3e5e643d">Horizontal Lockup with Tagline</h3>
           </div>
           <p className="type-caption max-w-xl text-muted-foreground" data-oid="3d65b63e35">Includes our tagline, “Leading to a Bright Future.” Kept on file for existing materials and approved requests.</p>
         </div>
         <div className="mt-ds-lg flex items-start gap-ds-md rounded-lg border border-border border-l-4 border-l-input bg-background p-ds-lg" data-oid="e1acb1b1fe">
           <AlertTriangle className="mt-0.5 h-5 w-5 shrink-0 text-muted-foreground" data-oid="2c4eb42fe1" />
           <div data-oid="ca7de3bdd1">
-            <h4 className="type-label uppercase text-foreground" data-oid="215ce4de86">De-prioritized</h4>
+            <h4 className="type-label uppercase text-foreground" data-oid="215ce4de86">De-Prioritized</h4>
             <p className="type-body mt-ds-xs max-w-4xl text-muted-foreground" data-oid="466c308a6d">Going forward, default to the lockup without the tagline for all new work. The tagline version is still allowed, but only for updating materials that already use it, or when Communications specifically approves it. Don’t add the tagline to new designs on your own, and never set the tagline as separate text next to the logo.</p>
           </div>
         </div>
@@ -281,7 +281,7 @@ export function LogoSection() {
       <div className="mt-ds-2xl" data-oid="6423f9d798">
         <div className="flex flex-wrap items-end justify-between gap-ds-md" data-oid="83b368fcba">
           <div data-oid="a46ddedb69">
-            <h3 className="type-heading text-foreground" data-oid="ac8644d752">The compass rose</h3>
+            <h3 className="type-heading text-foreground" data-oid="ac8644d752">The Compass Rose</h3>
             <p className="type-body mt-ds-xs max-w-2xl text-muted-foreground" data-oid="4d32c875c5">Our symbol points every student toward their future. Use it alone as an avatar, app icon, favicon, pattern, or campus accent, but never as a replacement for the full lockup on official communications.</p>
           </div>
           <p className="type-caption text-muted-foreground" data-oid="93bc3c6058">Minimum size: 0.375″ in print, 24px on screen.</p>
