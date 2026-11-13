@@ -41,7 +41,7 @@
   --ds-space-xl: 2.5rem;
   --ds-space-xs: 0.25rem;
 
-  --ds-font-poppins: "Poppins", sans-serif;
+  --ds-font-futura: "Futura PT", sans-serif;
   --ds-font-source-serif-4: "Source Serif 4", serif;
 }
 @theme inline {
@@ -97,22 +97,22 @@
   --text-caption: 0.75rem;
   --text-caption--line-height: 1.45;
   --text-caption--letter-spacing: 0.02em;
-  --font-caption: var(--ds-font-poppins);
+  --font-caption: var(--ds-font-futura);
   --font-style-caption: normal;
   --text-display: 5rem;
   --text-display--line-height: 0.95;
   --text-display--letter-spacing: -0.035em;
-  --font-display: var(--ds-font-poppins);
+  --font-display: var(--ds-font-futura);
   --font-style-display: normal;
   --text-heading: 2rem;
   --text-heading--line-height: 1.15;
   --text-heading--letter-spacing: -0.02em;
-  --font-heading: var(--ds-font-poppins);
+  --font-heading: var(--ds-font-futura);
   --font-style-heading: normal;
   --text-label: 0.8125rem;
   --text-label--line-height: 1.3;
   --text-label--letter-spacing: 0.08em;
-  --font-label: var(--ds-font-poppins);
+  --font-label: var(--ds-font-futura);
   --font-style-label: normal;
 
   --font-sans: var(--font-body);
