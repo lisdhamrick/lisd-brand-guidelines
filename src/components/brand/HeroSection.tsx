@@ -4,8 +4,8 @@ import { assetPath } from "../../lib/assetPath";
 export function HeroSection() {
   return (
     <section id="intro" className="relative overflow-hidden bg-primary text-primary-foreground" data-oid="16354e8182" data-oid-component-root="true" data-oid-callsite-deletable="true" data-oid-callsite-single="true">
-      <!-- <div className="pointer-events-none absolute inset-0 bg-[repeating-linear-gradient(135deg,transparent_0_38px,rgb(255_255_255/0.035)_38px_40px)]" data-oid="4036b49a3a" /> -->
-      <!-- <div className="pointer-events-none absolute -left-40 -top-40 h-[36rem] w-[36rem] rounded-full bg-[radial-gradient(circle,rgb(255_192_0/0.18),transparent_65%)]" data-oid="d48febf5d1" /> -->
+      <!--<div className="pointer-events-none absolute inset-0 bg-[repeating-linear-gradient(135deg,transparent_0_38px,rgb(255_255_255/0.035)_38px_40px)]" data-oid="4036b49a3a" />-->
+      <!--<div className="pointer-events-none absolute -left-40 -top-40 h-[36rem] w-[36rem] rounded-full bg-[radial-gradient(circle,rgb(255_192_0/0.18),transparent_65%)]" data-oid="d48febf5d1" />-->
       <img
         src={assetPath("mercury-attachments/lisd-rose-white1.svg")}
         alt=""
