@@ -80,7 +80,7 @@ export function TypographySection() {
             </div>
             <div className="grid grid-cols-12 items-baseline gap-ds-md py-ds-lg" data-oid="3c95d87001">
               <p className="type-label col-span-2 uppercase text-secondary" data-oid="aa230b0a2c">Heading</p>
-              <p className="type-heading col-span-7" uppercase data-oid="4a36be36fb">Welcome back, families</p>
+              <p className="type-heading col-span-7 uppercase" data-oid="4a36be36fb">Welcome back, families</p>
               <p className="type-caption col-span-3 text-right text-background/60" data-oid="39726472d3">32px · 700 · 1.15</p>
             </div>
             <div className="grid grid-cols-12 items-baseline gap-ds-md py-ds-lg" data-oid="8b48c1a5de">
