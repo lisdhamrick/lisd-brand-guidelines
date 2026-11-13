@@ -30,7 +30,7 @@ export function ColorSection() {
       <div className="flex flex-wrap items-end justify-between gap-ds-lg" data-oid="cff3f95917">
         <div data-oid="206c545e25">
           <p className="type-label uppercase text-primary" data-oid="b4e87f42b3">03 — Color</p>
-          <h2 className="type-display mt-ds-md text-[4rem] uppercase text-foreground" data-oid="d70281e95a">Blue leads. Gold shouts.</h2>
+          <h2 className="type-display mt-ds-md text-[4rem] uppercase text-foreground" data-oid="d70281e95a">Blue Leads. Gold Shouts.</h2>
           <p className="type-body mt-ds-md max-w-2xl text-muted-foreground" data-oid="d43510e623">
             Leander Blue is our dominant color. Gold is a sharp accent — use it to point, highlight, and celebrate, never as a background for long text. Click any swatch to copy its value.
           </p>
@@ -49,7 +49,7 @@ export function ColorSection() {
           <span className="type-label uppercase text-secondary" data-oid="9c14fa203c">Primary · 60%</span>
           <span className="flex items-end justify-between gap-ds-md" data-oid="6e08659298">
             <span className="flex flex-col" data-oid="684515ce80">
-              <span className="font-display text-[3.5rem] font-extrabold uppercase leading-none tracking-[-0.03em]" data-oid="9146fed45e">Leander Blue</span>
+              <span className="font-display text-[3.5rem] font-extrabold uppercase leading-none tracking-[-0.03em]" data-oid="9146fed45e">LISD Blue</span>
               <span className="mt-ds-sm font-label text-[1.125rem] font-semibold tabular-nums" data-oid="278b17d673">{value("blue")}</span>
             </span>
             <Copy className="h-6 w-6 opacity-60 group-hover:opacity-100" data-oid="b45a29a9aa" />
@@ -59,7 +59,7 @@ export function ColorSection() {
           <span className="type-label uppercase" data-oid="885994bf5f">Accent · 10%</span>
           <span className="flex items-end justify-between" data-oid="ee95611400">
             <span className="flex flex-col" data-oid="a11cc914bd">
-              <span className="font-display text-[2rem] font-extrabold uppercase leading-none" data-oid="552845b6d9">Leander Gold</span>
+              <span className="font-display text-[2rem] font-extrabold uppercase leading-none" data-oid="552845b6d9">LISD Unigold</span>
               <span className="mt-ds-xs font-label text-[1rem] font-semibold tabular-nums" data-oid="d8415b5643">{value("gold")}</span>
             </span>
             <Copy className="h-5 w-5 opacity-60 group-hover:opacity-100" data-oid="d0bb7e856b" />
@@ -82,7 +82,7 @@ export function ColorSection() {
       </div>
 
       <div className="mt-ds-2xl" data-oid="1d7a482148">
-        <h3 className="type-heading text-foreground" data-oid="66d85aff15">Color proportion</h3>
+        <h3 className="type-heading text-foreground" data-oid="66d85aff15">Color Proportion</h3>
         <div className="mt-ds-md flex h-16 overflow-hidden rounded-lg border border-border" data-oid="36eb380cb3">
           <div className="flex w-[60%] items-center bg-primary px-ds-md" data-oid="b778fbc685">
             <span className="type-label text-primary-foreground" data-oid="45a9cc0f68">60</span>
@@ -101,7 +101,7 @@ export function ColorSection() {
       </div>
 
       <div className="mt-ds-2xl" data-oid="19616e99b5">
-        <h3 className="type-heading text-foreground" data-oid="ed4b5d6f55">Accessible pairings</h3>
+        <h3 className="type-heading text-foreground" data-oid="ed4b5d6f55">Accessible Pairings</h3>
         <p className="type-body mt-ds-xs text-muted-foreground" data-oid="a9e1a56f7a">WCAG 2.1 contrast ratios for body text. AA requires 4.5:1; large text (24px+) requires 3:1.</p>
         <div className="mt-ds-lg grid grid-cols-1 gap-ds-md md:grid-cols-5" data-oid="1a984a242b">
           <div className="rounded-lg bg-primary p-ds-lg" data-oid="d27f1af49a">
@@ -111,12 +111,12 @@ export function ColorSection() {
           </div>
           <div className="rounded-lg bg-primary p-ds-lg" data-oid="a978b6fca9">
             <p className="font-display text-[2rem] font-extrabold text-secondary" data-oid="87dacb3db7">Aa</p>
-            <p className="type-label mt-ds-sm text-primary-foreground" data-oid="afb2393a44">Gold on Blue · 4.6:1</p>
+            <p className="type-label mt-ds-sm text-primary-foreground" data-oid="afb2393a44">Unigold on Blue · 4.6:1</p>
             <p className="type-caption mt-ds-xs inline-block rounded-sm bg-success px-ds-sm text-success-foreground" data-oid="0931537dc2">AA</p>
           </div>
           <div className="rounded-lg bg-secondary p-ds-lg" data-oid="4ee5c3b1f9">
             <p className="font-display text-[2rem] font-extrabold text-secondary-foreground" data-oid="d6369de92f">Aa</p>
-            <p className="type-label mt-ds-sm text-secondary-foreground" data-oid="1029d270e5">Black on Gold · 12.8:1</p>
+            <p className="type-label mt-ds-sm text-secondary-foreground" data-oid="1029d270e5">Black on Unigold · 12.8:1</p>
             <p className="type-caption mt-ds-xs inline-block rounded-sm bg-success px-ds-sm text-success-foreground" data-oid="941196bd82">AAA</p>
           </div>
           <div className="rounded-lg border border-border bg-background p-ds-lg" data-oid="6ee6ff3b4a">
@@ -126,7 +126,7 @@ export function ColorSection() {
           </div>
           <div className="rounded-lg border border-border bg-background p-ds-lg" data-oid="d2abad5f8d">
             <p className="font-display text-[2rem] font-extrabold text-secondary" data-oid="96d020ee8e">Aa</p>
-            <p className="type-label mt-ds-sm text-foreground" data-oid="8f01c5e9c2">Gold on White · 1.6:1</p>
+            <p className="type-label mt-ds-sm text-foreground" data-oid="8f01c5e9c2">Unigold on White · 1.6:1</p>
             <p className="type-caption mt-ds-xs inline-block rounded-sm bg-destructive px-ds-sm text-destructive-foreground" data-oid="5408e19dfb">Never for text</p>
           </div>
         </div>
