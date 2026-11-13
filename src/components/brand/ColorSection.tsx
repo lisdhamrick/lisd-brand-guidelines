@@ -105,27 +105,27 @@ export function ColorSection() {
         <p className="type-body mt-ds-xs text-muted-foreground" data-oid="a9e1a56f7a">WCAG 2.1 contrast ratios for body text. AA requires 4.5:1; large text (24px+) requires 3:1.</p>
         <div className="mt-ds-lg grid grid-cols-1 gap-ds-md md:grid-cols-5" data-oid="1a984a242b">
           <div className="rounded-lg bg-primary p-ds-lg" data-oid="d27f1af49a">
-            <p className="font-display text-[2rem] font-extrabold text-primary-foreground" data-oid="d79470b8c2">Aa</p>
+            <p className="font-display text-[2rem] font-bold text-primary-foreground" data-oid="d79470b8c2">Aa</p>
             <p className="type-label mt-ds-sm text-primary-foreground" data-oid="b7b29aa614">White on Blue · 7.6:1</p>
             <p className="type-caption mt-ds-xs inline-block rounded-sm bg-success px-ds-sm text-success-foreground" data-oid="9d382381c6">AAA</p>
           </div>
           <div className="rounded-lg bg-primary p-ds-lg" data-oid="a978b6fca9">
-            <p className="font-display text-[2rem] font-extrabold text-secondary" data-oid="87dacb3db7">Aa</p>
+            <p className="font-display text-[2rem] font-bold text-secondary" data-oid="87dacb3db7">Aa</p>
             <p className="type-label mt-ds-sm text-primary-foreground" data-oid="afb2393a44">Unigold on Blue · 4.6:1</p>
             <p className="type-caption mt-ds-xs inline-block rounded-sm bg-success px-ds-sm text-success-foreground" data-oid="0931537dc2">AA</p>
           </div>
           <div className="rounded-lg bg-secondary p-ds-lg" data-oid="4ee5c3b1f9">
-            <p className="font-display text-[2rem] font-extrabold text-secondary-foreground" data-oid="d6369de92f">Aa</p>
+            <p className="font-display text-[2rem] font-bold text-secondary-foreground" data-oid="d6369de92f">Aa</p>
             <p className="type-label mt-ds-sm text-secondary-foreground" data-oid="1029d270e5">Black on Unigold · 12.8:1</p>
             <p className="type-caption mt-ds-xs inline-block rounded-sm bg-success px-ds-sm text-success-foreground" data-oid="941196bd82">AAA</p>
           </div>
           <div className="rounded-lg border border-border bg-background p-ds-lg" data-oid="6ee6ff3b4a">
-            <p className="font-display text-[2rem] font-extrabold text-chart-4" data-oid="08c2167449">Aa</p>
+            <p className="font-display text-[2rem] font-bold text-chart-4" data-oid="08c2167449">Aa</p>
             <p className="type-label mt-ds-sm text-foreground" data-oid="ed316aec21">Gray on White · 3.1:1</p>
             <p className="type-caption mt-ds-xs inline-block rounded-sm bg-warning px-ds-sm text-warning-foreground" data-oid="b104218bfd">Large text only</p>
           </div>
           <div className="rounded-lg border border-border bg-background p-ds-lg" data-oid="d2abad5f8d">
-            <p className="font-display text-[2rem] font-extrabold text-secondary" data-oid="96d020ee8e">Aa</p>
+            <p className="font-display text-[2rem] font-bold text-secondary" data-oid="96d020ee8e">Aa</p>
             <p className="type-label mt-ds-sm text-foreground" data-oid="8f01c5e9c2">Unigold on White · 1.6:1</p>
             <p className="type-caption mt-ds-xs inline-block rounded-sm bg-destructive px-ds-sm text-destructive-foreground" data-oid="5408e19dfb">Never for text</p>
           </div>
