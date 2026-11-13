@@ -9,7 +9,7 @@ export function VoiceSection() {
 
   return (
     <section id="voice" className="relative overflow-hidden bg-secondary px-ds-xl py-ds-3xl text-secondary-foreground xl:px-ds-3xl" data-oid="287cbf1b7c" data-oid-component-root="true" data-oid-callsite-deletable="true" data-oid-callsite-single="true">
-      <div className="pointer-events-none absolute inset-0 bg-[repeating-linear-gradient(90deg,transparent_0_118px,rgb(0_89_135/0.08)_118px_120px)]" data-oid="2dd7efd69f" />
+      {/*<div className="pointer-events-none absolute inset-0 bg-[repeating-linear-gradient(90deg,transparent_0_118px,rgb(0_89_135/0.08)_118px_120px)]" data-oid="2dd7efd69f" />*/}
       <div className="relative grid grid-cols-1 gap-ds-2xl xl:grid-cols-12" data-oid="4a442befd5">
         <div className="xl:col-span-5" data-oid="cc7435c76b">
           <p className="type-label uppercase text-primary" data-oid="9980fd9209">06 — Voice &amp; Tone</p>
