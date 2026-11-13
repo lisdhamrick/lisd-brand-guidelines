@@ -7,7 +7,7 @@ export function HeroSection() {
       <!-- <div className="pointer-events-none absolute inset-0 bg-[repeating-linear-gradient(135deg,transparent_0_38px,rgb(255_255_255/0.035)_38px_40px)]" data-oid="4036b49a3a" /> -->
       <!-- <div className="pointer-events-none absolute -left-40 -top-40 h-[36rem] w-[36rem] rounded-full bg-[radial-gradient(circle,rgb(255_192_0/0.18),transparent_65%)]" data-oid="d48febf5d1" /> -->
       <img
-        src={assetPath("mercury-attachments/lisd-rose-gold1-dark.svg")}
+        src={assetPath("mercury-attachments/lisd-rose-white1.svg")}
         alt=""
         aria-hidden="true"
         className="pointer-events-none absolute -bottom-40 left-[30%] h-[44rem] w-[44rem] select-none opacity-10" data-oid="a12c316170" />
