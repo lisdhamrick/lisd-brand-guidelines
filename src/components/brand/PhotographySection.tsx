@@ -24,6 +24,10 @@ export function PhotographySection() {
               <Check className="mt-1 h-5 w-5 shrink-0 text-success" data-oid="23237515ba" />
               Represent the full breadth of our students, staff, programs and communities over time
             </li>
+            <li className="type-body flex items-start gap-ds-sm text-foreground">
+              <Check className="mt-1 h-5 w-5 shrink-0 text-success" />
+              Provide meaningful alt text and captions for on-image text
+            </li>
             <li className="type-body flex items-start gap-ds-sm text-foreground" data-oid="6d05436d9d">
               <X className="mt-1 h-5 w-5 shrink-0 text-destructive" data-oid="429f0b70e5" />
               Avoid placing text over faces or essential activity
@@ -35,10 +39,6 @@ export function PhotographySection() {
             <li className="type-body flex items-start gap-ds-sm text-foreground">
               <X className="mt-1 h-5 w-5 shrink-0 text-destructive" />
               Never use AI-generated views of district facilities, branding or school graphics
-            </li>
-            <li className="type-body flex items-start gap-ds-sm text-foreground">
-              <Check className="mt-1 h-5 w-5 shrink-0 text-success" />
-              Provide meaningful alt text and captions for on-image text
             </li>
           </ul>
         </div>
