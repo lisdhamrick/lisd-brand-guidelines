@@ -16,7 +16,7 @@ const EXAMPLES = [
   ["wrong-background", "Match the Rose to its background.", "The light- and dark-background Unigold files are different on purpose. This light-background file reverses the lighting on blue."],
   ["disort", "Don't distort it.", "Don’t skew, squeeze, or twist the wordmark. Keep the original proportions."],
   ["distress", "Don’t beat it up.", "Don’t add textures, scratches, or grunge effects. Keep the artwork clean and crisp."],
-  ["effects": "Skip the special effects.", "Don’t add glows, bevels, metallic finishes or other dimensional treatments."],
+  ["effects", "Skip the special effects.", "Don’t add glows, bevels, metallic finishes or other dimensional treatments."],
   ["arch", "Don’t bend it.", "Keep the wordmark and Compass Rose straight. Don’t arch, curve, or warp the artwork."],
 ] as const
 
