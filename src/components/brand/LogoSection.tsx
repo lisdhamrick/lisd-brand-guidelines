@@ -10,10 +10,10 @@ type Rose = "two" | "one"
 type Layout = "horizontal" | "stacked"
 
 const PREVIEW: Record<Bg, { two: LogoVariant; one: LogoVariant; note: string; label: string }> = {
-  white: { two: "blue-gold2", one: "blue-gold1", label: "Primary · Blue + Gold", note: "The blue and gold lockup on white is our primary, preferred application." },
-  blue: { two: "white-gold2", one: "white-gold1", label: "Reversed · White + Gold", note: "On LISD Blue, use the reversed lockup: white type with the gold Compass Rose." },
-  black: { two: "white-gold2", one: "white-gold1", label: "Reversed · White + Gold", note: "On black or very dark photography, use the reversed white and gold lockup." },
-  gold: { two: "black-black1", one: "black-black1", label: "One-color · Black", note: "On LISD Unigold, the gold Compass Rose would disappear. Use the one-color black lockup." },
+  white: { two: "blue-gold2", one: "blue-gold1", label: "Primary · Blue + Gold", note: "The blue and gold lockup on white is our primary, preferred application" },
+  blue: { two: "white-gold2", one: "white-gold1", label: "Reversed · White + Gold", note: "On LISD Blue, use the reversed lockup: white type with the gold Compass Rose" },
+  black: { two: "white-gold2", one: "white-gold1", label: "Reversed · White + Gold", note: "On black or very dark photography, use the reversed white and gold lockup" },
+  gold: { two: "black-black1", one: "black-black1", label: "One-color · Black", note: "On LISD Unigold, the gold Compass Rose would disappear - use the one-color black lockup" },
 }
 
 const LIBRARY: { variant: LogoVariant; name: string; rose: string; tile: string }[] = [
@@ -58,11 +58,11 @@ const TAGLINE: { file: string; name: string; rose: string; tile: string }[] = [
 ]
 
 const ROSES: { file: string; name: string; use: string; tile: string }[] = [
-  { file: "mercury-attachments/lisd-rose-gold2.svg", name: "Gold · Two-color", use: "Primary mark for full-color print, web, and social.", tile: "bg-background" },
-  { file: "mercury-attachments/lisd-rose-gold1-light.svg", name: "Gold · One-color", use: "For light backgrounds, spot-color, and embroidery.", tile: "bg-background" },
-  { file: "mercury-attachments/lisd-rose-gold1-dark.svg", name: "Gold · One-color", use: "For LISD Blue and other dark backgrounds.", tile: "bg-primary" },
-  { file: "mercury-attachments/lisd-rose-white1.svg", name: "White", use: "For photography and dark fields where gold won’t read.", tile: "bg-foreground" },
-  { file: "mercury-attachments/lisd-rose-black1.svg", name: "Black", use: "For single-color black print, faxes, and gold fields.", tile: "bg-secondary" },
+  { file: "mercury-attachments/lisd-rose-gold2.svg", name: "Gold · Two-color", use: "Primary mark for full-color print, web, and social", tile: "bg-background" },
+  { file: "mercury-attachments/lisd-rose-gold1-light.svg", name: "Gold · One-color", use: "For light backgrounds, spot-color, and embroidery", tile: "bg-background" },
+  { file: "mercury-attachments/lisd-rose-gold1-dark.svg", name: "Gold · One-color", use: "For LISD Blue and other dark backgrounds", tile: "bg-primary" },
+  { file: "mercury-attachments/lisd-rose-white1.svg", name: "White", use: "For photography and dark fields where gold won’t read", tile: "bg-foreground" },
+  { file: "mercury-attachments/lisd-rose-black1.svg", name: "Black", use: "For single-color black print, faxes, and gold fields", tile: "bg-secondary" },
 ]
 
 function DownloadButtons({ file, label }: { file: string; label: string }) {
