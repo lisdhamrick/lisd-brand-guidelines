@@ -4,6 +4,10 @@ Portable, one-page Leander ISD brand guidelines built with React, TypeScript, Vi
 
 The repository is the source of truth. The production build is static, so it can be hosted independently, served from Payload, published through GitHub Pages or another static host, or integrated into a WordPress template.
 
+## Project context
+
+Read [docs/project-handoff.md](docs/project-handoff.md) before continuing the project in a new chat or development environment. It consolidates the foundational planning, brand decisions, content rationale, current implementation state, and unresolved questions that previously lived across multiple conversations.
+
 ## Local development
 
 Requirements: Node.js 22 and npm.
