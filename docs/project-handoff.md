@@ -156,6 +156,12 @@ The current interface provides PNG and SVG downloads:
 
 Clear-space and minimum-size values should not be presented as official requirements unless Communications has formally approved them. If retained without formal approval, label them as recommendations.
 
+### Unauthorized-use examples
+
+The District Logos section includes 12 deliberately incorrect examples made from official SVG paths: stretch, squash, rotation, unapproved colors, a blue Compass Rose, compression damage, shadows, outlines, gradients, homemade badges, mirrored lighting, and use of the light-background Rose on blue. Each is explicitly marked as incorrect; these are educational illustrations, never downloadable brand assets. Approved source files remain unchanged.
+
+Examples live in `public/examples/logo-misuse/`, separately from approved artwork. Regenerate them with `node scripts/generate-logo-misuse.mjs`. `LogoMisuse.tsx` supplies captions and responsive cards. Outdated artwork, substituted symbols, retyped lettering and AI reinterpretations are addressed in text; do not invent historical or AI-generated specimens.
+
 ### The Compass Rose
 
 The Compass Rose is the district brand's prominent and most recognizable anchor. It may stand alone on apparel or social content and may be used strategically when other elements have already established the district identity. It is not a universal replacement for the full logo on official communications.

@@ -1,7 +1,9 @@
 import { useState } from "react"
-import { AlertTriangle, Check, Download, X } from "lucide-react"
+import { AlertTriangle, Download } from "lucide-react"
 import { assetPath } from "../../lib/assetPath"
 import { LOGO_FILES, Wordmark, type LogoVariant } from "./Wordmark"
+
+import { LogoMisuse } from "./LogoMisuse"
 
 type Bg = "white" | "blue" | "gold" | "black"
 type Rose = "two" | "one"
@@ -306,51 +308,7 @@ export function LogoSection() {
         </ul>
       </div>
 
-      <div className="mt-ds-2xl" data-oid="d181ca3031">
-        <h3 className="type-heading text-foreground" data-oid="8f513d9c04">Please don’t</h3>
-        <div className="mt-ds-lg grid grid-cols-1 gap-ds-lg md:grid-cols-2 xl:grid-cols-4" data-oid="f0aa6f887f">
-          <div className="overflow-hidden rounded-lg border border-border bg-background" data-oid="a9bd93ceca">
-            <div className="flex h-44 items-center justify-center overflow-hidden px-ds-lg" data-oid="08facc7236">
-              <Wordmark className="h-12 scale-x-[1.3] scale-y-[0.65]" />
-            </div>
-            <div className="flex items-start gap-ds-sm border-t-4 border-destructive p-ds-md" data-oid="0ba41dc51b">
-              <X className="mt-0.5 h-5 w-5 shrink-0 text-destructive" data-oid="ad1e2a8f2a" />
-              <p className="type-body text-foreground" data-oid="a79ca868de">Stretch or squash the lockup.</p>
-            </div>
-          </div>
-          <div className="overflow-hidden rounded-lg border border-border bg-background" data-oid="31403f372e">
-            <div className="flex h-44 items-center justify-center overflow-hidden px-ds-lg" data-oid="bc20863cbd">
-              <Wordmark className="h-11 -rotate-12" />
-            </div>
-            <div className="flex items-start gap-ds-sm border-t-4 border-destructive p-ds-md" data-oid="99edfb8271">
-              <X className="mt-0.5 h-5 w-5 shrink-0 text-destructive" data-oid="84652a019c" />
-              <p className="type-body text-foreground" data-oid="75c5ac3569">Rotate or set it on an angle.</p>
-            </div>
-          </div>
-          <div className="overflow-hidden rounded-lg border border-border bg-background" data-oid="8ff8b211af">
-            <div className="flex h-44 items-center justify-center overflow-hidden px-ds-lg hue-rotate-[140deg]" data-oid="0d054a0454">
-              <Wordmark className="h-12" />
-            </div>
-            <div className="flex items-start gap-ds-sm border-t-4 border-destructive p-ds-md" data-oid="58f2ecfe12">
-              <X className="mt-0.5 h-5 w-5 shrink-0 text-destructive" data-oid="19fde481af" />
-              <p className="type-body text-foreground" data-oid="84526f26cb">Recolor it outside the brand palette.</p>
-            </div>
-          </div>
-          <div className="overflow-hidden rounded-lg border border-border bg-background" data-oid="2619dcad26">
-            <div className="flex h-44 items-center justify-center overflow-hidden bg-secondary px-ds-lg" data-oid="4141d27652">
-              <Wordmark variant="blue-gold2" className="h-12 drop-shadow-[4px_4px_0_rgb(0_0_0/0.45)]" />
-            </div>
-            <div className="flex items-start gap-ds-sm border-t-4 border-destructive p-ds-md" data-oid="1bb51ef0f8">
-              <X className="mt-0.5 h-5 w-5 shrink-0 text-destructive" data-oid="298b45da66" />
-              <p className="type-body text-foreground" data-oid="864f8012c6">Place the gold rose on gold, or add shadows and effects.</p>
-            </div>
-          </div>
-        </div>
-        <div className="mt-ds-lg flex items-center gap-ds-sm" data-oid="34fee2a625">
-          <Check className="h-5 w-5 text-success" data-oid="ec6d31aefc" />
-          <p className="type-caption text-muted-foreground" data-oid="8aee830e2f">When in doubt, place the blue and gold lockup on white with plenty of breathing room.</p>
-        </div>
-      </div>
+      <LogoMisuse />
     </section>
   )
 }
