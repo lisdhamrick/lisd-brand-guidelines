@@ -3,6 +3,7 @@ import { AlertTriangle, Download } from "lucide-react"
 import { assetPath } from "../../lib/assetPath"
 import { LOGO_FILES, Wordmark, type LogoVariant } from "./Wordmark"
 
+import { LogoSpacing } from "./LogoSpacing"
 import { LogoMisuse } from "./LogoMisuse"
 
 type Bg = "white" | "blue" | "gold" | "black"
@@ -167,7 +168,7 @@ export function LogoSection() {
           <p className="type-body text-muted-foreground" data-oid="4096bb3fc6">{info.note}</p>
           <div className="mt-auto border-t border-border pt-ds-lg" data-oid="b733fcbadc">
             <h4 className="type-label uppercase text-foreground" data-oid="19a4e3731c">Clear Space</h4>
-            <p className="type-body mt-ds-xs text-muted-foreground" data-oid="c20516063b">Keep a margin equal to the height of the letters in LEANDER on all sides. Minimum width: 1.5″ in print, 180px on screen.</p>
+            <p className="type-body mt-ds-xs text-muted-foreground" data-oid="c20516063b">Use the height of the letters in LEANDER as a recommended clear-space unit. Around the Compass Rose, measure from its ring—not the projecting tips.</p>
           </div>
         </div>
       </div>
@@ -308,6 +309,7 @@ export function LogoSection() {
         </ul>
       </div>
 
+      <LogoSpacing />
       <LogoMisuse />
     </section>
   )

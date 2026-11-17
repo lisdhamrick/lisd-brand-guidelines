@@ -156,6 +156,12 @@ The current interface provides PNG and SVG downloads:
 
 Clear-space and minimum-size values should not be presented as official requirements unless Communications has formally approved them. If retained without formal approval, label them as recommendations.
 
+### Clear space and optical alignment
+
+Ryan clarified that clear space should use the height of the logotype, measured from the visual body rather than the Compass Rose point tips. The Rose’s implied outer ring is the optical alignment reference: align the ring to a margin or adjacent content and allow the points to project into the margin, while preserving all points within the page/trim edge.
+
+`LogoSpacing.tsx` provides four SVG diagrams in `public/examples/logo-spacing/`: ring reference, horizontal clear space, standalone clear space, and a ring-versus-tip alignment comparison. Regenerate with `node scripts/generate-logo-spacing.mjs`; official logo paths are embedded unchanged. Guides are overlays only. X is the LEANDER cap height; standalone spacing carries over X from a full lockup with the same Rose size. That standalone conversion is an implementation interpretation of Ryan’s approach, presented as recommended spacing pending review. Do not impose a new unit based on the tips or silently alter the lockup.
+
 ### Unauthorized-use examples
 
 The District Logos section includes 12 deliberately incorrect examples made from official SVG paths: stretch, squash, rotation, unapproved colors, a blue Compass Rose, compression damage, shadows, outlines, gradients, homemade badges, mirrored lighting, and use of the light-background Rose on blue. Each is explicitly marked as incorrect; these are educational illustrations, never downloadable brand assets. Approved source files remain unchanged.
