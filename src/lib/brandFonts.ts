@@ -27,3 +27,33 @@ export function installBrandFonts() {
   root.setProperty("--ds-font-source-serif-4", BODY_STACK)
   root.setProperty("--font-body", BODY_STACK)
 }
+
+import { assetPath } from "./assetPath"
+
+// Loads the district's Noto Serif Italic variable font and makes it the italic face.
+const NOTO_SERIF_ITALIC_URL = assetPath(
+  "mercury-assets/NotoSerif-Italic-VariableFont_wdth_wght.ttf",
+)
+
+const ITALIC_STACK = `"Noto Serif Italic", "Source Serif 4", serif`
+
+export function installBrandFonts() {
+  if (typeof document === "undefined") return
+  if (!document.getElementById("brand-font-noto-serif")) {
+    const style = document.createElement("style")
+    style.id = "brand-font-noto-serif-italic"
+    style.textContent = `@font-face {
+  font-family: "Noto Serif Italic";
+  src: url("${NOTO_SERIF_URL}") format("truetype");
+  font-weight: 100 900;
+  font-stretch: 62.5% 100%;
+  font-style: italic;
+  font-display: swap;
+}`
+    document.head.appendChild(style)
+  }
+  // Inline on <html> so it wins over the compiled :root tokens.
+  const root = document.documentElement.style
+  root.setProperty("--ds-font-source-serif-4", ITALIC_STACK)
+  root.setProperty("--font-body-italic", ITALIC_STACK)
+}
