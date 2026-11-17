@@ -195,6 +195,30 @@ export function LogoSection() {
         </ul>
       </div>
 
+      <div className="mt-ds-2xl" data-oid="6423f9d798">
+        <div className="flex flex-wrap items-end justify-between gap-ds-md" data-oid="83b368fcba">
+          <div data-oid="a46ddedb69">
+            <h3 className="type-heading text-foreground" data-oid="ac8644d752">The Compass Rose</h3>
+            <p className="type-body mt-ds-xs max-w-4xl text-muted-foreground" data-oid="4d32c875c5">The Compass Rose is the prominent and most recognizable anchor of our district brand. It can stand alone on apparel or social media and may be used strategically where the district identity is already established. Its uppermost point always uses the same directional lighting: the left face is illuminated and the right face is shaded. Never invert, mirror or reconstruct the artwork.</p>
+          </div>
+          <p className="type-caption text-muted-foreground" data-oid="93bc3c6058">Minimum size: 0.375″ in print, 24px on screen.</p>
+        </div>
+        <ul className="mt-ds-lg grid grid-cols-1 gap-ds-lg md:grid-cols-3 xl:grid-cols-5" data-oid="0cd5bed7ea">
+          {ROSES.map((item, index) => (
+            <li key={item.file} data-index={index} className="flex flex-col overflow-hidden rounded-lg border border-border bg-background" data-oid="21fc7de784" data-oid-shared="true" data-oid-instance-targetable="true">
+              <div className={`flex aspect-square items-center justify-center p-ds-xl ${item.tile}`} data-oid="1fa6f980ce" data-oid-shared="true" data-oid-instance-targetable="true" data-oid-classname-dynamic="true">
+                <img src={assetPath(item.file)} alt={`Leander ISD compass rose, ${item.name}`} draggable={false} className="h-full w-full select-none object-contain" data-oid="e2d211a4cf" data-oid-shared="true" data-oid-instance-targetable="true" />
+              </div>
+              <div className="flex flex-1 flex-col gap-ds-sm border-t border-border p-ds-md" data-oid="3d1ef414ea" data-oid-shared="true" data-oid-instance-targetable="true">
+                <p className="font-heading text-[1rem] font-bold text-foreground" data-oid="c3868eeb26" data-oid-shared="true" data-oid-instance-targetable="true">{item.name}</p>
+                <p className="type-caption flex-1 text-muted-foreground" data-oid="e8945bbddf" data-oid-shared="true" data-oid-instance-targetable="true">{item.use}</p>
+                <DownloadButtons file={item.file} label={`compass rose, ${item.name}`} />
+              </div>
+            </li>
+          ))}
+        </ul>
+      </div>
+
       <div className="mt-ds-2xl" data-oid="8bf8162681">
         <div className="flex flex-wrap items-end justify-between gap-ds-md" data-oid="ee821448c0">
           <h3 className="type-heading text-foreground" data-oid="c02b21722b">Stacked Lockups</h3>
@@ -278,30 +302,6 @@ export function LogoSection() {
                   <p className="type-caption text-muted-foreground" data-oid="ce686a03ae" data-oid-shared="true" data-oid-instance-targetable="true">{item.rose}</p>
                 </div>
                 <DownloadButtons file={item.file} label={`tagline lockup, ${item.name}, ${item.rose}`} />
-              </div>
-            </li>
-          ))}
-        </ul>
-      </div>
-
-      <div className="mt-ds-2xl" data-oid="6423f9d798">
-        <div className="flex flex-wrap items-end justify-between gap-ds-md" data-oid="83b368fcba">
-          <div data-oid="a46ddedb69">
-            <h3 className="type-heading text-foreground" data-oid="ac8644d752">The Compass Rose</h3>
-            <p className="type-body mt-ds-xs max-w-4xl text-muted-foreground" data-oid="4d32c875c5">The Compass Rose is the prominent and most recognizable anchor of our district brand. It can stand alone on apparel or social media and may be used strategically where the district identity is already established. Its uppermost point always uses the same directional lighting: the left face is illuminated and the right face is shaded. Never invert, mirror or reconstruct the artwork.</p>
-          </div>
-          <p className="type-caption text-muted-foreground" data-oid="93bc3c6058">Minimum size: 0.375″ in print, 24px on screen.</p>
-        </div>
-        <ul className="mt-ds-lg grid grid-cols-1 gap-ds-lg md:grid-cols-3 xl:grid-cols-5" data-oid="0cd5bed7ea">
-          {ROSES.map((item, index) => (
-            <li key={item.file} data-index={index} className="flex flex-col overflow-hidden rounded-lg border border-border bg-background" data-oid="21fc7de784" data-oid-shared="true" data-oid-instance-targetable="true">
-              <div className={`flex aspect-square items-center justify-center p-ds-xl ${item.tile}`} data-oid="1fa6f980ce" data-oid-shared="true" data-oid-instance-targetable="true" data-oid-classname-dynamic="true">
-                <img src={assetPath(item.file)} alt={`Leander ISD compass rose, ${item.name}`} draggable={false} className="h-full w-full select-none object-contain" data-oid="e2d211a4cf" data-oid-shared="true" data-oid-instance-targetable="true" />
-              </div>
-              <div className="flex flex-1 flex-col gap-ds-sm border-t border-border p-ds-md" data-oid="3d1ef414ea" data-oid-shared="true" data-oid-instance-targetable="true">
-                <p className="font-heading text-[1rem] font-bold text-foreground" data-oid="c3868eeb26" data-oid-shared="true" data-oid-instance-targetable="true">{item.name}</p>
-                <p className="type-caption flex-1 text-muted-foreground" data-oid="e8945bbddf" data-oid-shared="true" data-oid-instance-targetable="true">{item.use}</p>
-                <DownloadButtons file={item.file} label={`compass rose, ${item.name}`} />
               </div>
             </li>
           ))}
