@@ -438,6 +438,7 @@
     letter-spacing: var(--text-caption--letter-spacing);
     font-style: var(--font-style-caption);
     font-weight: var(--font-weight-caption);
+    text-transform: var(--text-caption--tranform);
   }
   .type-display {
     font-family: var(--font-display);
