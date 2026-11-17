@@ -28,8 +28,6 @@ export function installBrandFonts() {
   root.setProperty("--font-body", BODY_STACK)
 }
 
-import { assetPath } from "./assetPath"
-
 // Loads the district's Noto Serif Italic variable font and makes it the italic face.
 const NOTO_SERIF_ITALIC_URL = assetPath(
   "mercury-assets/NotoSerif-Italic-VariableFont_wdth_wght.ttf",
