@@ -169,6 +169,8 @@ export function LogoSection() {
           <div className="mt-auto border-t border-border pt-ds-lg" data-oid="b733fcbadc">
             <h4 className="type-label uppercase text-foreground" data-oid="19a4e3731c">Clear Space</h4>
             <p className="type-body mt-ds-xs text-muted-foreground" data-oid="c20516063b">Use the height of the letters in LEANDER as a recommended clear-space unit. Around the Compass Rose, measure from its ring—not the projecting tips.</p>
+            <p className="type-body mt-ds-xs text-muted-foreground">Recommended minimum width: 1.5″ in print, 180px on screen.</p>
+            <a href="#logo-spacing" className="mt-ds-sm inline-block font-label text-sm font-semibold text-primary underline underline-offset-4">See spacing &amp; alignment diagrams</a>
           </div>
         </div>
       </div>
