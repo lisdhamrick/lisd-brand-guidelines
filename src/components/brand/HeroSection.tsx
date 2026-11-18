@@ -55,10 +55,10 @@ export function HeroSection() {
             
           </div>
           <div className="pointer-events-none absolute inset-0 bg-gradient-to-r from-primary/60 via-transparent to-transparent" data-oid="f59e643db8" />
-          <div className="absolute bottom-ds-2xl left-0 bg-secondary px-ds-lg py-ds-md text-secondary-foreground xl:-left-ds-2xl" data-oid="9dbfe3478d">
+          {/*<div className="absolute bottom-ds-2xl left-0 bg-secondary px-ds-lg py-ds-md text-secondary-foreground xl:-left-ds-2xl" data-oid="9dbfe3478d">
             <p className="type-label uppercase" data-oid="05dee4811f">Section 00</p>
             <p className="font-display text-[1.5rem] font-extrabold uppercase leading-tight" data-oid="47c503ccad">Start here</p>
-          </div>
+          </div>*/}
         </div>
       </div>
     </section>);
