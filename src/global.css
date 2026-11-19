@@ -165,7 +165,6 @@
     justify-content: center;
     gap: var(--ds-space-xs);
     padding: var(--ds-space-xs) var(--ds-space-md);
-    border: 1px solid transparent;
     border-radius: var(--radius-sm);
     background: transparent;
     color: var(--foreground);
