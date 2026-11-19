@@ -16,8 +16,6 @@ const EXAMPLES = [
   ["blue-rose", "A blue Rose is still wrong.", "Even LISD Blue is not an approved Compass Rose color. Use the supplied gold, white or black artwork."],
   ["compression", "Don’t recycle a damaged copy.", "Skip screenshots, tiny web copies and compressed images. Start with a fresh PNG or SVG download."],
   ["badge", "Don’t build a new logo from it.", "Don’t rearrange the elements or package them inside homemade badges, borders or decorative flourishes."],
-  ["mirror", "Keep the light on the left.", "Don’t mirror or invert the Rose. The top point’s left face is always illuminated; its right face is shaded."],
-  ["wrong-background", "Match the Rose to its background.", "The light- and dark-background Unigold files are different on purpose. This light-background file reverses the lighting on blue."],
 ] as const
 
 export function LogoMisuse() {
@@ -26,6 +24,7 @@ export function LogoMisuse() {
       <p className="type-label uppercase text-primary">Protect the identity</p>
       <h3 className="type-display mt-ds-sm text-[clamp(2.5rem,5vw,4rem)] uppercase text-foreground">Please don’t.</h3>
       <p className="type-body mt-ds-md max-w-3xl text-muted-foreground">Small changes add up to a different identity. These are deliberately incorrect examples, made from our official artwork to show what to avoid.</p>
+      <p className="type-body mt-ds-sm text-muted-foreground">For the Compass Rose’s directional lighting and background-specific artwork, <a href="#compass-rose-lighting" className="font-semibold text-primary underline underline-offset-4">see the lighting model above</a>.</p>
       <ul className="mt-ds-xl grid grid-cols-1 gap-ds-lg md:grid-cols-2 2xl:grid-cols-4">
         {EXAMPLES.map(([id, title, description]) => (
           <li key={id} className="overflow-hidden rounded-lg border border-border bg-background">

@@ -1,3 +1,5 @@
+// LEGACY FIRST PASS: current diagrams are Ryan’s Figma-exported PNGs.
+// This script uses the superseded cap-height unit and is retained only for history.
 // Diagram overlays only. All logo paths come unchanged from the approved exports.
 import { readFileSync, writeFileSync, mkdirSync } from 'node:fs'
 const out = 'public/examples/logo-spacing/'
