@@ -6,11 +6,11 @@ export function HeroSection() {
     <section id="intro" className="relative overflow-hidden bg-primary text-primary-foreground" data-oid="16354e8182" data-oid-component-root="true" data-oid-callsite-deletable="true" data-oid-callsite-single="true">
       {/*<div className="pointer-events-none absolute inset-0 bg-[repeating-linear-gradient(135deg,transparent_0_38px,rgb(255_255_255/0.035)_38px_40px)]" data-oid="4036b49a3a" />
       <div className="pointer-events-none absolute -left-40 -top-40 h-[36rem] w-[36rem] rounded-full bg-[radial-gradient(circle,rgb(255_192_0/0.18),transparent_65%)]" data-oid="d48febf5d1" />*/}
-      <img
+      {/*<img
         src={assetPath("mercury-attachments/lisd-rose-white1.svg")}
         alt=""
         aria-hidden="true"
-        className="pointer-events-none absolute -bottom-40 left-[30%] h-[44rem] w-[44rem] select-none opacity-10" data-oid="a12c316170" />
+        className="pointer-events-none absolute -bottom-40 left-[30%] h-[44rem] w-[44rem] select-none opacity-10" data-oid="a12c316170" />*/}
       
       <div className="relative grid min-h-screen grid-cols-1 xl:grid-cols-12" data-oid="a500ab9e2b">
         <div className="flex flex-col justify-between gap-ds-2xl px-ds-xl py-ds-2xl xl:col-span-7 xl:px-ds-3xl xl:py-ds-3xl" data-oid="c44ddfddc7">
